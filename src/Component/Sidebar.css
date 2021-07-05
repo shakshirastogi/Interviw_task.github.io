@@ -1,0 +1,90 @@
+.sidenav {
+  width: 191px;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background:white;
+    overflow-x: hidden;
+    padding: 8px 0;
+    box-shadow: 10px 10px 5px rgb(223, 213, 213);
+  }
+  
+  .sidenav a {
+    padding: 6px 0px 25px 99px;
+    text-decoration: none;
+    font-size: 15px;
+    color: grey;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+background: hsl(208, 39%, 84%);
+color: black;
+font-weight: bold;
+
+ border-left: 3px solid rgb(61, 44, 212);
+            height: 50px;
+          
+        }
+        
+  
+  .sidenav .fa{
+      margin-left: 20px;
+  }
+  .logo{
+    padding: 6px 0px 25px 99px;
+      width: 3rem;
+      height: 3rem;
+  }
+ .container{
+  margin-left: 13rem;
+    margin-top: 111px;
+    width: 75%;
+height: 34rem;
+  background: #ddd;
+ 
+}
+.container h5 i{
+  margin-top: 30px;
+    margin-left: 35px;
+    color: gray;
+}
+.container input{
+  text-decoration: none;
+  outline: none;
+  border: none;
+  width: 35rem;
+  height: 1.8rem;
+  margin-left: 219px;
+border-radius: 5px;
+}
+
+.container h3{
+text-align: center;
+}
+.container .input_box{
+  text-decoration: none;
+  outline: none;
+  border: none;
+  width: 10rem;
+  height: 8rem;
+}
+/* ::-webkit-input-placeholder { 
+  font-weight: bold;
+} */
+.input_box::placeholder {
+  font-weight: bold;
+text-align: center;
+}
+
+  
+
+
+
+
+    
+  
+  
+  
